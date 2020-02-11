@@ -1,0 +1,42 @@
+.button {
+  border: none;
+  color: black;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 20px;
+  width: 200px;
+  border-radius: 1.8rem;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: all 220ms ease-in-out;
+}
+
+.button:hover {
+  box-shadow: 0 6px 4px 0 rgba(0,0,0,.15);
+}
+
+.red {
+  color: white;
+  background-color: red;
+}
+
+.blue {
+  color: white;
+  background-color: blue;
+}
+
+.black {
+  color: white;
+  background-color: black;
+}
+
+.disabled {
+  cursor: not-allowed;
+  color: gray;
+  background-color: lightgray;
+}
+
+.disabled:hover {
+  box-shadow: none;
+}
